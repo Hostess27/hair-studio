@@ -1,2 +1,6 @@
-@import './common';
-@import './example';
+@import './base/common';
+@import './laout/burger-menu.scss';
+
+@import './laout/header.scss';
+@import './laout/main.scss';
+@import './laout/footer.scss';

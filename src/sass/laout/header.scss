@@ -1,0 +1,68 @@
+@media screen and (max-width: 479px) {
+  .menu.is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .logo {
+    padding-top: 15px;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+  }
+  .contacts__list {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+  .phone {
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .burger-menu.is-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .logo {
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+  }
+  .contacts__list {
+    &:not(:last-child) {
+      margin-right: 3px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+.logo {
+}
+
+@media screen and (min-width: 1280px) {
+}
+.logo {
+}
