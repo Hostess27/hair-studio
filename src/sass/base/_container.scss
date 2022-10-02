@@ -4,26 +4,26 @@
 
   @media screen and (max-width: 479px) {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   @media screen and (min-width: 480px) {
-    width: 480px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 480px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
   }
 
   @media screen and (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
     padding-left: 34px;
     padding-right: 34px;
   }
 
   @media screen and (min-width: 1280px) {
-    width: 1280px;
+    max-width: 1280px;
     padding-left: 115px;
     padding-right: 115px;
   }

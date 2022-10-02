@@ -1,5 +1,9 @@
-@media screen and (max-width: 479px) {
-  .menu.is-hidden {
+.nav__menu.is-hidden {
+  @media screen and (max-width: 479px) {
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (max-width: 767px) {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -12,57 +16,195 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .logo {
-    padding-top: 15px;
+  @media screen and (min-width: 1280px) {
   }
-  .contacts {
+}
+
+.burger-menu.is-hidden {
+  @media screen and (min-width: 767px) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+
+.nav {
+  @media screen and (max-width: 479px) {
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.logo {
+  &:hover,
+  &:focus {
+    fill: purple;
+    transition: 300ms;
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (max-width: 767px) {
+    padding-top: 15px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    fill: #fae6e6;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.nav__menu {
+  @media screen and (max-width: 479px) {
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.contacts {
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (max-width: 767px) {
     display: flex;
     flex-direction: column;
     padding-left: 25px;
   }
-  .contacts__list {
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.menu__nav_list {
+  @media screen and (max-width: 479px) {
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.menu__nav_list--dash {
+  color: #fae6e6;
+}
+
+.menu__nav_title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  color: black;
+  &:hover,
+  &:focus {
+    color: purple;
+    transition: 300ms;
+  }
+  @media screen and (max-width: 479px) {
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+    color: #fae6e6;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.contacts__list {
+  @media screen and (min-width: 480px) {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (max-width: 767px) {
     &:not(:last-child) {
       margin-bottom: 40px;
     }
   }
-  .phone {
+  @media screen and (min-width: 1280px) {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .burger-menu.is-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.contact__icon {
+  &:hover,
+  &:focus {
+    fill: purple;
+    transition: 300ms;
   }
-  .logo {
+  @media screen and (max-width: 479px) {
   }
-  .contacts {
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
+  @media screen and (min-width: 480px) {
   }
-  .contacts__list {
+  @media screen and (min-width: 768px) {
+    fill: #fae6e6;
     &:not(:last-child) {
-      margin-right: 3px;
+      margin-right: 10px;
     }
   }
+  @media screen and (min-width: 1280px) {
+  }
 }
 
-@media screen and (min-width: 768px) {
-}
-.logo {
+.phone {
+  @media screen and (max-width: 479px) {
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
 }
 
-@media screen and (min-width: 1280px) {
+.instagram {
+  @media screen and (max-width: 479px) {
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
 }
-.logo {
+
+.telegram {
+  @media screen and (max-width: 479px) {
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
 }
