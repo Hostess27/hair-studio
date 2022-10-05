@@ -35,7 +35,11 @@
     overflow: hidden;
   }
 }
-
+.header{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
 .nav {
   @media screen and (max-width: 479px) {
   }
