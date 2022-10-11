@@ -1,2 +1,0 @@
-!function(){var e=document.getElementById("burger-menu"),t=document.getElementById("menu");e.addEventListener("click",(function(){this.classList.toggle("close"),t.classList.toggle("overlay")}));var n=0;!function e(){var t,l=document.getElementsByClassName("mySlides");for(t=0;t<l.length;t++)l[t].style.display="none";++n>l.length&&(n=1);l[n-1].style.display="flex",setTimeout(e,4e3)}()}();
-//# sourceMappingURL=index.e7b9303f.js.map

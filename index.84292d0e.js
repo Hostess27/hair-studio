@@ -1,2 +1,0 @@
-const e=document.getElementById("burger-menu"),t=document.getElementById("menu");e.addEventListener("click",(function(){this.classList.toggle("close"),t.classList.toggle("overlay")}));let l=0;!function e(){let t,n=document.getElementsByClassName("mySlides");for(t=0;t<n.length;t++)n[t].style.display="none";l++,l>n.length&&(l=1);n[l-1].style.display="flex",setTimeout(e,4e3)}();
-//# sourceMappingURL=index.84292d0e.js.map
