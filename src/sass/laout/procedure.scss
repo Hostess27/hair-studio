@@ -1,0 +1,147 @@
+.procedure {
+  border-radius: 5px;
+  padding: 40px;
+  background: var(--secondary-text-color);
+}
+
+.procedure__flex {
+  display: flex;
+  margin-bottom: 30px;
+  @media screen and (max-width: 479px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.procedure__title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: var(--title-text-color);
+  text-transform: uppercase;
+  padding-right: 40px;
+  @media screen and (max-width: 479px) {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 60px;
+  }
+}
+
+.procedure__flex_paragraph {
+}
+
+.procedure__paragraph {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  color: var(--black);
+  margin-bottom: 15px;
+  @media screen and (max-width: 479px) {
+    font-size: 10px;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 30px;
+  }
+}
+
+.procedure__paragraph_second {
+  font-family: Work Sans;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--black);
+  margin-bottom: 15px;
+  @media screen and (max-width: 479px) {
+    font-size: 10px;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 30px;
+  }
+}
+
+.procedure__list {
+  text-align: center;
+  @media screen and (min-width: 1280px) {
+    display: flex;
+  }
+}
+
+.procedure__item {
+  text-align: center;
+  @media screen and (min-width: 1024px) {
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
+
+.procedure__item_title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 30px;
+  text-align: start;
+  color: var(--title-text-color);
+
+  @media screen and (max-width: 479px) {
+    font-size: 15px;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 30px;
+  }
+}
+.procedure__item_paragraph {
+  text-align: start;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  color: var(--black);
+
+  @media screen and (max-width: 479px) {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 0;
+  }
+}

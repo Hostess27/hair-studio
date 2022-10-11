@@ -1,9 +1,16 @@
 @import '/node_modules/modern-normalize/modern-normalize.css';
+@import './base/variables';
 @import './utils/normalise';
 @import './base/common';
 @import './laout/burger-menu.scss';
 @import './base/container';
 
 @import './laout/header.scss';
-@import './laout/main.scss';
+@import './laout/hero.scss';
+@import './laout/about.scss';
+@import './laout/procedure.scss';
+@import './laout/examples.scss';
+@import './laout/materials.scss';
+@import './laout/price.scss';
+@import './laout/contacts.scss';
 @import './laout/footer.scss';

@@ -1,0 +1,112 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: var(--secondary-background-color);
+}
+
+.contact__title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 15px;
+  @media screen and (max-width: 479px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 60px;
+  }
+}
+
+.contact__add {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+.contact__link {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: 300ms;
+  }
+  @media screen and (max-width: 479px) {
+    display: flex;
+    font-size: 15px;
+  }
+  @media screen and (min-width: 480px) {
+    display: flex;
+    font-size: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 50px;
+  }
+}
+
+.contact__icon {
+  margin-right: 10px;
+  fill: black;
+
+  @media screen and (max-width: 479px) {
+    width: 20px;
+    height: 20px;
+  }
+  @media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 768px) {
+    width: 40px;
+    height: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.contact__paragraph {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+  color: var(--black);
+  @media screen and (max-width: 479px) {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,39 @@
+.footer{
+  background-color: var(--shadow-color);
+  padding: 40px 20px;
+}
+
+.footer__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  fill: #fae6e6;
+  margin-bottom: 20px;
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    transition: 300ms;
+  }
+}
+
+.footer__paragraph{
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 300;
+  color: var(--secondary-text-color);
+  @media screen and (max-width: 479px) {
+    font-size: 10px;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 15px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,33 @@
+.price {
+  text-align: center;
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+}
+
+.price__title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  color: var(--title-text-color);
+  margin-bottom: 30px;
+  @media screen and (max-width: 479px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 480px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 60px;
+  }
+}
+
+.price__img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px var(--shadow-color);
+}
