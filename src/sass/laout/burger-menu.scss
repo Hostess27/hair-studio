@@ -10,6 +10,7 @@
 #burger-menu span,
 #burger-menu span:before,
 #burger-menu span:after {
+
   background: #fae6e6;
   display: block;
   height: 4px;
@@ -24,8 +25,9 @@
 }
 
 #burger-menu span {
-  right: 0px;
-  top: 13px;
+  position: fixed;
+  top: 3%;
+  right: 5%;
   width: 27px;
   border-radius: 25%;
 }
