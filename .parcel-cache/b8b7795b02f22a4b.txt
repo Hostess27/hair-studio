@@ -171,7 +171,7 @@
 116C:\Users\Pashchenko family\Documents\GitHub\hair-studio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.c133100804644291026 0
 70C:\Users\Pashchenko family\Documents\GitHub\hair-studio\src\index.html133101636692689862 0
 77C:\Users\Pashchenko family\Documents\GitHub\hair-studio\node_modules\has-flag133100804591636068 1
-68C:\Users\Pashchenko family\Documents\GitHub\hair-studio\src\index.js133100798656085024 0
+68C:\Users\Pashchenko family\Documents\GitHub\hair-studio\src\index.js133107501741887398 0
 112C:\Users\Pashchenko family\Documents\GitHub\hair-studio\node_modules\@parcel\compressor-raw\src\RawCompressor.js133100804586259458 0
 80C:\Users\Pashchenko family\Documents\GitHub\hair-studio\src\sass\laout\hero.scss133100798656843009 0
 180C:\Users\Pashchenko family\Documents\GitHub\hair-studio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\.pnpm\source-pnpm@1.0.0\node_modules\source-pnpm\source.js133100804637149540 0
