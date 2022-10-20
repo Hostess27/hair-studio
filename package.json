@@ -2,10 +2,12 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Hostess27.github.io/hair-studio",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hair-studio/"
+    "build": "parcel build src/*.html --public-url /hair-studio/",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
+
   },
   "repository": {
     "type": "git",
